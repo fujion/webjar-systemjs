@@ -9,7 +9,7 @@
 
 	<name>SystemJS</name>
 	<artifactId>webjar-systemjs</artifactId>
-	<version>0.21.4-SNAPSHOT</version>
+	<version>0.21.4</version>
 	<description>SystemJS</description>
 	
 	<properties>
@@ -26,10 +26,10 @@
 						<id>precompile</id>
 						<configuration>
 							<target>
-								<get src="${src.url}" dest="${src.zipdir}/src.zip"/>
+								<get src="${src.url}" dest="${src.zipdir}/src.zip" />
 								<unzip src="${src.zipdir}/src.zip" dest="${src.tmpdir}" />
 								<move todir="${webjar.target}">
-									<fileset dir="${src.rootdir}" includes="dist/*.*,LICENSE"/>
+									<fileset dir="${src.rootdir}" includes="dist/*.*,LICENSE" />
 								</move>
 							</target>
 						</configuration>
@@ -38,4 +38,8 @@
 			</plugin>
 		</plugins>
 	</build>
+
+  <scm>
+    <tag>0.21.4</tag>
+  </scm>
 </project>
