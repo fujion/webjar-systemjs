@@ -1,2 +1,3 @@
-# fujion-systemjs
-Web jar for https://github.com/systemjs/systemjs.
+# webjar-systemjs
+Web jar for systemjs.
+https://github.com/systemjs/systemjs
