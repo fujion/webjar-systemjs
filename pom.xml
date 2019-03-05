@@ -9,7 +9,7 @@
 
 	<name>SystemJS</name>
 	<artifactId>webjar-systemjs</artifactId>
-	<version>3.0.1-SNAPSHOT</version>
+	<version>3.0.1</version>
 	<description>SystemJS</description>
 	
 	<properties>
@@ -38,4 +38,8 @@
 			</plugin>
 		</plugins>
 	</build>
+
+  <scm>
+    <tag>3.0.1</tag>
+  </scm>
 </project>
