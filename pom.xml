@@ -9,7 +9,7 @@
 
 	<name>SystemJS</name>
 	<artifactId>webjar-systemjs</artifactId>
-	<version>0.21.6-1</version>
+	<version>6.6.1</version>
 	<description>SystemJS</description>
 	
 	<build>
@@ -43,10 +43,8 @@
 						<configuration>
 							<target>
 								<copy todir="${webjar.target}">
-									<fileset dir="${src.rootdir}/node_modules/systemjs" includes="LICENSE,README.md" />
+									<fileset dir="${src.rootdir}/node_modules/systemjs" includes="dist/,LICENSE,README.md" excludes="**/system-node.*"/>
 								</copy>
-								<copy tofile="${webjar.target}/dist/system.js" file="${src.rootdir}/node_modules/systemjs/dist/system.src.js" />
-								<copy tofile="${webjar.target}/dist/system.min.js" file="${src.rootdir}/node_modules/systemjs/dist/system.js" />
 							</target>
 						</configuration>
 					</execution>
