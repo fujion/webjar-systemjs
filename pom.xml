@@ -9,7 +9,7 @@
 
 	<name>SystemJS</name>
 	<artifactId>webjar-systemjs</artifactId>
-	<version>6.14.2-SNAPSHOT</version>
+	<version>6.14.3-SNAPSHOT</version>
 	<description>SystemJS</description>
 
 	<build>
